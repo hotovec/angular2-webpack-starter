@@ -1,0 +1,17 @@
+{
+  "apigate":"/api/user",
+
+  "methods": [
+    {
+      "path": "/api/user/info",
+      "description": "Get basic user info",
+      "auth": "required"
+    },
+    {
+      "path": "/api/user/logged",
+      "description": "Get user logged status",
+      "auth": "required"
+    }
+  ]
+
+}
